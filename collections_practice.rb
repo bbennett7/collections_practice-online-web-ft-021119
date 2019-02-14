@@ -4,7 +4,7 @@ end
 
 
 def sort_array_desc(array)
-  array.sort_by.reverse
+  array.sort{|a, b| b <=> a}
 end
 
 def sort_array_char_count(array)
