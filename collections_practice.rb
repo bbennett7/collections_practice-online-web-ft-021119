@@ -22,11 +22,14 @@ end
 
 def kesha_maker(array)
   kesha_array = []
-  
   array.each do |string|
     string[2] = "$"
     kesha_array << string
   end
   
   kesha_array
+end
+
+def find_a(array)
+  array.start_with?("a")
 end
