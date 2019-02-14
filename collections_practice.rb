@@ -24,6 +24,7 @@ def kesha_maker(array)
   kesha_array = []
   
   array.each do |string|
+    array.delete
     kesha_array << string[2].replace("$")
   end
   
